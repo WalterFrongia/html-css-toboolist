@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}    
+body{
+    background-color: rgba(243, 240, 240, 0.925);
+}
+h1{
+    font-family: 'Castoro', serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin:20px 0;
+}
+    
+header{
+    background-color: white;
+    padding: 10px;
+    margin-bottom:40px;
+}
+#img-logo{
+    width:50px;
+    display: inline-block;
+    vertical-align:middle;
+}
+#text-logo{
+    display: inline-block;
+    vertical-align:middle;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.contenitore-nav{
+    margin:auto;
+    width:60%;
+}
+.nav-options{
+    background-color: white;
+    height: 65px;
+    line-height: 65px;
+}
+#nav-text-task{
+    padding:10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10%;
+    margin:0 10px 0 60px;
+}
+#nav-text-section{
+    border: 1px solid grey;
+    padding:10px;
+    color:lightslategray;
+    border-radius: 10%;
+}
+.contenitore-sezioni{
+    background-color: white;
+    margin-top: 5px;
+    padding: 30px 50px;
+}
+.simbolo-vero{
+    font-size:15px;
+    color: green;
+    border:3px solid green;
+    border-radius: 50%;
+}
+.simbolo-falso{
+    font-size:15px;
+    color:red;
+    border:3px solid red;
+    border-radius: 50%;
+
+}
+.new-task{
+    margin-bottom:30px;
+}
+.today{
+    margin-bottom:30px;
+}
+.upcoming{
+    margin-bottom:30px;
+}
+.span-editorial{
+    background-color:rgb(32, 124, 245);
+    border-radius:5px;
+    padding:3px;
+    color:white;
+}
+#span-goals{
+    background-color: mediumorchid;
+    border-radius:5px;
+    padding:3px;
+    color:white;
+}
+#span-recruting{
+    background-color:rgb(12, 172, 110);
+    border-radius:5px;
+    padding:3px;
+    color:white;
+}
+#span-mobile{
+    background-color:orange;
+    border-radius:5px;
+    padding:3px;
+    color:white;
+}
+#span-website{
+    background-color:fuchsia;
+    border-radius:5px;
+    padding:3px;
+    color:white;
+}
+#span-sales{
+    background-color:olive;
+    border-radius:5px;
+    padding:3px;
+    color:white;
+}
